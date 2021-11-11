@@ -25,15 +25,7 @@ target 'APPLICATION_TARGET_NAME' do
   end
 end
 ```
-##### EyesEarlGrey
-```ruby
-target 'APPLICATION_TARGET_NAME' do
-  target 'UNIT_TESTING_TARGET_NAME' do
-    pod 'EyesEarlGrey'
-  end
-end
-```
-##### EyesEarlGrey
+##### EyesImages
 ```ruby
 target 'APPLICATION_TARGET_NAME' do
   target 'UNIT_TESTING_TARGET_NAME' do
@@ -76,10 +68,6 @@ Specify it in your `Cartfile`:
 binary "https://applitools.bintray.com/iOS/CarthageEyesXCUI/VERSION/EyesXCUI-VERSION.json"
 ```
 
-##### EyesEarlGrey
-```ogdl
-binary "https://applitools.bintray.com/iOS/CarthageEyesEarlGrey/VERSION/EyesEarlGrey-VERSION.json"
-```
 
 ##### EyesImages
 ```ogdl
@@ -106,10 +94,7 @@ $ carthage update
 ```bash
 $(SRCROOT)/Carthage/Build/iOS/EyesXCUI.framework
 ```
-##### EyesEarlGrey
-```bash
-$(SRCROOT)/Carthage/Build/iOS/EyesEarlGrey.framework
-```
+
 ##### EyesImages
 ```bash
 $(SRCROOT)/Carthage/Build/iOS/EyesImages.framework
@@ -119,10 +104,7 @@ $(SRCROOT)/Carthage/Build/iOS/EyesImages.framework
 ```bash
 $(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/EyesXCUI.framework
 ```
-##### EyesEarlGrey
-```bash
-$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/EyesEarlGrey.framework
-```
+
 ##### EyesImages
 ```bash
 $(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/EyesImages.framework
