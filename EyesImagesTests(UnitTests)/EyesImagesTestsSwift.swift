@@ -17,7 +17,8 @@ class EyesImagesTestsSwift: XCTestCase {
         let eyes: Eyes = Eyes()
 
         // Initialize the eyes SDK and set your private API key.
-        eyes.apiKey = "YOUR_API_KEY"
+       // eyes.apiKey = "YOUR_API_KEY"
+        //recommended to set environment variable APPLITOOLS_API_KEY in the Scheme
 
         do {
             // Start the test
