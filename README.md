@@ -36,6 +36,8 @@ end
 
 Save your `Podfile`.
 
+Please note that the Podfile is already set for the current workspace.
+
 ### Step 4: Install dependencies
 Run the following command in the terminal window:
 ```bash
